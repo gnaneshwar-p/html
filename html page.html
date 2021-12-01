@@ -1,0 +1,159 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>titlebar</title>
+<head><style>
+body{background-color:grey;}
+p{color:cream;}
+h1{color:ash;}
+#p01{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 30px;
+}
+#p02{
+text-align:center;
+}
+p.error {
+    color: red;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+ul#lang li {
+    display:inline;
+	}
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#section {
+    width:1450px;
+    float:left;
+    padding:10px;	 	 
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+#101{
+img-float :"center;
+}
+</style>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="header" style="background-color:white;">
+<h1 style="color:blue;">this is a basic html page </h1>
+<p id="p01" title="basicpage" style="color:red;" >
+this page contains all concepts of html page</p>
+</div>
+<div id="section">
+<style="text-align:right;"><b><i>center heading</i></b><br>
+<div id="101">
+<img src="C:\Users\gnane\Pictures\beautiful-wallpaper-29.jpg" style="float:center"; alt="city image" width="500" height="500"> <br> 
+</div>
+<p id="p02" style="font-size:180%">sky scapers<br></p>
+<a href="https://www.google.com" target="_blank-Opens" style="font-family:verdana;">this is a hyperlinnk</a>
+<p class="error">I am different.</p>
+<p><pre>
+<bold>disabled- specifies that an input elelment should be disabled</bold><br>
+<i>id- specifies an unique element & can be only used <mark>once</mark></i><br>
+<small>class-can use many times</small> <br>
+<em>hr-horizontal line</em><br>
+pre-defines pre-preformatted text<br>
+Use the CSS color property for text colors
+Use the CSS font-family property for text fonts
+Use the CSS font-size property for text sizes
+Use the CSS border property for visible element borders
+Use the CSS padding property for space inside the border
+Use the CSS margin property for space outside the border
+_blank-Opens the linked document in a new window or tab
+_self-Opens the linked document in the same frame as it was clicked (this is default)
+_parent-Opens the linked document in the parent frame
+_top-Opens the linked document in the full body of the window
+framename-Opens the linked document in a named frame
+<hr></pre></p>
+<code>
+var x = 5;
+var y = 6;
+document.getElementById("demo").innerHTML = x + y;
+</code>
+<hr>
+<h2 style="background-color:rgb(0,255,0)">
+rgb-(red blue green) Background-color set by using rgb(0,255,0)
+</h2>
+<h2 style="background-color:#FFFF00">
+hexadecimal Background-color set by using #FFFF00
+</h2>
+<h1 style="color:blue;">This is a Blue Heading</h1>
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>		
+    <th>Points</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>		
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>		
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>		
+    <td>80</td>
+  </tr>
+</table>
+<hr>
+<h2> unordered list</h2>
+<ul id="lang" style="list_style_type:circle">
+<li>html</li>
+<li>css</li>
+<li>java script</li>
+</ul>
+<h2> ordered list<h2>
+<ol type="1" >
+<li>dbms</li>
+<li>java</li>
+<li>c</li>
+<li>c++</li>
+</ol>
+<h2>A Description List</h2>
+<dl>
+  <dt>Coffee</dt>
+  <dd>- i love cappicano</dd>
+  <dt>sizzling browine</dt>
+  <dd>- i love sizzling browine</dd>
+</dl>
+<iframe width="100%" height="300px" src="cartoonjpg.html" name="iframe_a"></iframe>
+<p><a href="html page.html" target="iframe_a">HTML PAGE</a></p>
+<h1>JavaScript</h1>
+<p id="demo">clicking on button changes the style</p>
+<script>
+function myFunction() {
+    document.getElementById("demo").style.fontSize = "25px"; 
+}
+</script>
+<button type="button" onclick="myFunction()">Click Me..!</button>
+&#9824 &#9824 &#9824
+
+</div>
+<div id="footer" >
+copyright @"gnaneshwar"
+</div>
+</body>
+</html>
